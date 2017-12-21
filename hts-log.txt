@@ -1,0 +1,18 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 21 Dec 2017 15:46:11 at http://localhost +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://localhost -O1 "C:\My Web Sites\HKP GAS" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:46:51	Error: 	"Not Found" (404) at link localhost/feed/ (from localhost/)
+15:46:51	Error: 	"Not Found" (404) at link localhost/comments/feed/ (from localhost/)
+15:47:32	Error: 	"Not Found" (404) at link localhost/wp-json/ (from localhost/)
+15:47:32	Error: 	"Not Found" (404) at link localhost/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2F (from localhost/)
+15:47:32	Error: 	"Not Found" (404) at link localhost/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2F&format=xml (from localhost/)
+15:47:32	Error: 	"Forbidden" (403) at link localhost/"http://localhost/wp-content/uploads/2017/12/Oil-Gas-Pipelines-Refineries.jpg" (from localhost/)
+15:48:18	Warning: 	File not parsed, looks like binary: localhost/wp-content/themes/mesmerize/assets/fonts/fontawesome-webfont.woff2?v=4.7.0
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 8 seconds : 52 links scanned, 45 files written (3682348 bytes overall) [3699785 bytes received at 28904 bytes/sec], 3.2 requests per connection
+(6 errors, 1 warnings, 0 messages)
