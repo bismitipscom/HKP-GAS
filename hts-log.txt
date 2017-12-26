@@ -1,4 +1,4 @@
-HTTrack3.49-2+htsswf+htsjava launched on Thu, 21 Dec 2017 16:39:31 at http://localhost +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 26 Dec 2017 11:38:09 at http://localhost +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
 (winhttrack -qiC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://localhost -O1 "C:\My Web Sites\HKP GAS" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
 
 Information, Warnings and Errors reported for this mirror:
@@ -6,12 +6,13 @@ note:	the hts-log.txt file, and hts-cache folder, may contain sensitive informat
 	such as username/password authentication for websites mirrored in this project
 	do not share these files/folders if you want these information to remain private
 
-16:39:35	Error: 	"Not Found" (404) at link localhost/feed/ (from localhost/)
-16:39:35	Error: 	"Not Found" (404) at link localhost/comments/feed/ (from localhost/)
-16:39:39	Error: 	"Not Found" (404) at link localhost/wp-json/ (from localhost/)
-16:39:41	Error: 	"Not Found" (404) at link localhost/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2F (from localhost/)
-16:39:41	Error: 	"Not Found" (404) at link localhost/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2F&format=xml (from localhost/)
-16:39:44	Warning: 	File not parsed, looks like binary: localhost/wp-content/themes/mesmerize/assets/fonts/fontawesome-webfont.woff2?v=4.7.0
+11:38:11	Warning: 	Note: due to localhost remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
+11:39:18	Warning: 	File not parsed, looks like binary: localhost/wp-content/themes/mesmerize/assets/fonts/fontawesome-webfont.woff2?v=4.7.0
+11:39:19	Warning: 	Moved Permanently for localhost/?p=55
+11:39:19	Warning: 	File has moved from localhost/?p=55 to http://localhost/about-us/
+11:39:20	Warning: 	Moved Permanently for localhost/?p=53
+11:39:20	Warning: 	File has moved from localhost/?p=53 to http://localhost/contact-us/
+11:39:44	Warning: 	File not parsed, looks like binary: localhost/wp-content/plugins/so-widgets-bundle/icons/fontawesome/font/fontawesome-webfont.woff2?v=4.7.0
 
-HTTrack Website Copier/3.49-2 mirror complete in 14 seconds : 51 links scanned, 45 files written (3681318 bytes overall), 1 files updated [40324 bytes received at 2880 bytes/sec], 10.2 requests per connection
-(5 errors, 1 warnings, 0 messages)
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 37 seconds : 81 links scanned, 78 files written (6132188 bytes overall), 36 files updated [2648381 bytes received at 27302 bytes/sec], 7.5 requests per connection
+(No errors, 7 warnings, 0 messages)
