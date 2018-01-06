@@ -1,4 +1,4 @@
-HTTrack3.49-2+htsswf+htsjava launched on Sat, 06 Jan 2018 13:33:38 at http://localhost +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 06 Jan 2018 14:32:28 at http://localhost +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
 (winhttrack -qiC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://localhost -O1 "C:\My Web Sites\HKP GAS" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
 
 Information, Warnings and Errors reported for this mirror:
@@ -6,16 +6,19 @@ note:	the hts-log.txt file, and hts-cache folder, may contain sensitive informat
 	such as username/password authentication for websites mirrored in this project
 	do not share these files/folders if you want these information to remain private
 
-13:33:41	Warning: 	Note: due to localhost remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
-13:33:56	Warning: 	Moved Permanently for localhost/about-us
-13:33:56	Warning: 	File has moved from localhost/about-us to http://localhost/about-us/
-13:33:56	Error: 	Unable to save file C:/My Web Sites/HKP GAS/localhost/about-us: Permission denied
-13:33:57	Warning: 	File not parsed, looks like binary: localhost/wp-content/themes/mesmerize/assets/fonts/fontawesome-webfont.woff2?v=4.7.0
-13:34:00	Warning: 	Moved Permanently for localhost/?p=55
-13:34:00	Warning: 	File has moved from localhost/?p=55 to http://localhost/about-us/
-13:34:03	Warning: 	Moved Permanently for localhost/?p=53
-13:34:03	Warning: 	File has moved from localhost/?p=53 to http://localhost/contact-us/
-13:34:04	Warning: 	File not parsed, looks like binary: localhost/wp-content/plugins/so-widgets-bundle/icons/fontawesome/font/fontawesome-webfont.woff2?v=4.7.0
+14:32:31	Warning: 	Note: due to localhost remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
+14:32:45	Warning: 	Moved Permanently for localhost/contact-us
+14:32:45	Warning: 	File has moved from localhost/contact-us to http://localhost/contact-us/
+14:32:45	Error: 	Unable to save file C:/My Web Sites/HKP GAS/localhost/contact-us: Permission denied
+14:32:45	Warning: 	Moved Permanently for localhost/about-us
+14:32:45	Warning: 	File has moved from localhost/about-us to http://localhost/about-us/
+14:32:45	Error: 	Unable to save file C:/My Web Sites/HKP GAS/localhost/about-us: Permission denied
+14:32:48	Warning: 	File not parsed, looks like binary: localhost/wp-content/themes/mesmerize/assets/fonts/fontawesome-webfont.woff2?v=4.7.0
+14:32:51	Warning: 	Moved Permanently for localhost/?p=55
+14:32:51	Warning: 	File has moved from localhost/?p=55 to http://localhost/about-us/
+14:32:53	Warning: 	Moved Permanently for localhost/?p=53
+14:32:53	Warning: 	File has moved from localhost/?p=53 to http://localhost/contact-us/
+14:32:54	Warning: 	File not parsed, looks like binary: localhost/wp-content/plugins/so-widgets-bundle/icons/fontawesome/font/fontawesome-webfont.woff2?v=4.7.0
 
-HTTrack Website Copier/3.49-2 mirror complete in 27 seconds : 82 links scanned, 78 files written (6196542 bytes overall), 5 files updated [225632 bytes received at 8356 bytes/sec], 4.3 requests per connection
-(1 errors, 9 warnings, 0 messages)
+HTTrack Website Copier/3.49-2 mirror complete in 28 seconds : 82 links scanned, 77 files written (6194095 bytes overall), 4 files updated [161144 bytes received at 5755 bytes/sec], 4.8 requests per connection
+(2 errors, 11 warnings, 0 messages)
